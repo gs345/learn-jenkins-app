@@ -11,6 +11,7 @@ pipeline {
                     """
                 }
             }
+        }
         stage('Git Hello') {
             steps {
                 echo 'Hello World'
